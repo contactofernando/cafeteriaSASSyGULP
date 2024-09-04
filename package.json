@@ -1,0 +1,14 @@
+{
+  "name": "11-cafeteriaweb",
+  "version": "1.0.0",
+  "description": "Primer Proyecto con SASS, Gulp y CSS Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Saucedo contactofernandosaucedo@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  }
+}
