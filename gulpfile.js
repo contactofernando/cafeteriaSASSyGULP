@@ -8,6 +8,7 @@ function css( done) {
     //pasos: 1 - Identificar archivos, 2 - Compilar, 3 - Guardar el .css
 
     src('src/scss/app.scss')
+        .pipe( sass().on('error', sass.logError))
         .pipe( sass() )
         .pipe( postcss([ autoprefixer() ]) )
         .pipe( dest('build/css') )

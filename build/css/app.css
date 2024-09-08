@@ -357,3 +357,19 @@ h2 {
 h3 {
   font-size: 3.2rem;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.bg-primario {
+  background-color: #E8505B;
+}
+
+.header {
+  color: black;
+}
+
+.navegacion {
+  color: black;
+}
