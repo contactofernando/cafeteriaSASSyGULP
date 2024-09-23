@@ -510,6 +510,29 @@ h3 {
     margin: 0;
   }
 }
+.footer {
+  background-color: #5E311E;
+}
+
+.footer .contenido-footer {
+  padding: 5rem;
+}
+
+@media (min-width: 768px) {
+  .footer .contenido-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+.footer-box {
+  font-family: "Bona Nova", serif;
+}
+
+.footer-box h3 {
+  font-family: "Bona Nova", serif;
+}
+
 .contenido-principal {
   background-color: #FFFFFF;
   padding: 5rem 2rem;
